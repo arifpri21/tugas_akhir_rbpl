@@ -1,0 +1,208 @@
+html {
+  scroll-behavior:smooth ;
+}
+
+
+.navbar {
+  background-color: rgb(27, 160, 226);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-brand img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.navbar-toggler-icon {
+  background-color: transparent;
+  border: #000000;
+}
+
+.navbar-nav .nav-link {
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+.navbar-nav  .nav-link:hover {
+  color: #bfbfbf;
+}
+
+.dropdown-username {
+  color: rgb(255, 255, 255); /* Ubah warna teks menjadi merah */
+}
+
+.dropdown-profil {
+  color: rgb(255, 255, 255); /* Ubah warna teks menjadi merah */
+}
+
+#spanduk {
+  background-color: #3498db; /* Ganti dengan warna yang Anda inginkan */
+  height: 300px;
+  padding: 30px 0 0 60px;
+}
+
+
+.text1 {
+  font-weight: 600;
+  color: #f0f0f0;
+  font-size: 50px;
+  line-height: 60px;
+  width: 330px;
+  letter-spacing: -2px;
+  scroll-behavior:smooth ;
+}
+
+.text1 span {
+  font-size: 45px;
+  line-height: 50px;
+  display: block;
+  padding-left: 80px;
+  margin-top: -12px;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.text1 p {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 13px 0 25px 0;
+  letter-spacing: -1px;
+
+}
+
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Container Styling */
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.345);
+}
+
+.container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form-control {
+  height: 40px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #0194f3;
+  border-color: #ffffff;
+}
+
+.a.btn.btn-primary {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #0194f3;
+  border-color: #ffffff;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  table-layout: absolute;
+}
+
+.table thead th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table tbody td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .table {
+    width: absolute;
+  }
+
+  .table thead th,
+  .table tbody td {
+    white-space: initial;
+    overflow: initial;
+    text-overflow: initial;
+  }
+}
+
+
+.container {
+  margin-top: 2rem;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  position: relative;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  padding: 1rem;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators .active {
+  background-color: rgba(255, 246, 246, 0.9);
+}
